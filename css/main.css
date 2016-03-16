@@ -71,9 +71,9 @@ svg {
 .gradient {
 background: linear-gradient(270deg, #C6D2F2, #F2AC9B, #C9FFF9, #FFF2F2, #D8E6FF);
 background-size: 1000% 1000%;
--webkit-animation: AnimationName 10s ease infinite;
--moz-animation: AnimationName 10s ease infinite;
-animation: AnimationName 10s ease infinite;
+-webkit-animation: AnimationName 14s ease infinite;
+-moz-animation: AnimationName 14s ease infinite;
+animation: AnimationName 14s ease infinite;
 margin-top: 5%;
 }
 
@@ -94,7 +94,7 @@ margin-top: 5%;
 }
 
 .gradient-inner {
-  height: 87vh;
+  height: 81vh;
 }
 
 .gradient-text {
@@ -114,4 +114,9 @@ h1 {
 h4 {
   font-family: 'Jaapokki';
   opacity: .4;
+}
+
+h5 {
+  font-family: 'Jaapokki';
+  font-size: 1.6em;
 }
