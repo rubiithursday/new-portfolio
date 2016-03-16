@@ -144,8 +144,16 @@ h5 {
 @media only screen and (min-width: 64.063em) { 
  h1 {
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Jaapokki';
   letter-spacing: 3px;
 }
 } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+ h1 {
+  color: white;
+  font-size: 3em;
+  font-family: 'Jaapokki';
+  letter-spacing: 3px;
+}} 
