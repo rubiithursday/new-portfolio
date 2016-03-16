@@ -129,6 +129,27 @@ h5 {
   font-family: 'Jaapokki';
   letter-spacing: 3px;
 }
+.gradient {
+  margin:0;
+}
+.gradient-inner {
+  height: 100vh;
+}
+
+.blog {
+  visibility: hidden;  
+  display: none; 
+}
+
+
+.lab {
+  visibility: hidden;   
+  display: none; 
+
+}
+
+
+
   } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 
