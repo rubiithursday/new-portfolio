@@ -106,7 +106,6 @@ margin-top: 5%;
 
 h1 {
   color: white;
-  font-size: 2em;
   font-family: 'Jaapokki';
   letter-spacing: 3px;
 }
@@ -121,11 +120,21 @@ h5 {
   font-size: 1.6em;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+ h1 {
+  color: white;
+  font-size: 2em;
+  font-family: 'Jaapokki';
+  letter-spacing: 3px;
+}
+ }
+
+ // Large screens
+@media only screen and (min-width: 64.063em) { 
  h1 {
   color: white;
   font-size: 3em;
   font-family: 'Jaapokki';
   letter-spacing: 3px;
 }
- }
+} /* min-width 1025px, large screens */
