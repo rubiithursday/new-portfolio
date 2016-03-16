@@ -7,6 +7,10 @@ body {
   font-family: 'Jaapokki';
   font-size: 20px;
 }
+
+.title-text {
+  margin-top: 20%;
+}
 .row {
   max-width: none;
 }
@@ -109,4 +113,5 @@ h1 {
 
 h4 {
   font-family: 'Jaapokki';
+  opacity: .4;
 }
