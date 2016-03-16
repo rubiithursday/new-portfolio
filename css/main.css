@@ -3,19 +3,56 @@
     src: url(fonts/jaapokki-regular.ttf) format("truetype");
 }
 
+body {
+  font-family: 'Jaapokki';
+  font-size: 20px;
+}
+.row {
+  max-width: none;
+}
+.work {
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  right: 0;
+  left: 0;
 
+  }
+.blog {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog-text{
+   transform: rotate(270deg);
+    transform-origin: top 0;
+ 
+}
+
+.lab {
+  position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lab-text {
+   transform: rotate(90deg);
+  transform-origin: top 0;
+}
 .r {
-  max-width: 8%;
-  margin: auto;
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 svg {
     stroke: #000;
-    stroke-width: 4;
+    stroke-width: 3;
     stroke-dasharray: 100px;
     stroke-dashoffset: 100px;
     animation-name: draw;
-    animation-duration: 8s;
+    animation-duration: 12s;
     animation-fill-mode: forwards; // Stay on the last frame
     animation-iteration-count: 2; // Run only once
     animation-timing-function: linear;
@@ -28,11 +65,12 @@ svg {
 }
 
 .gradient {
-background: linear-gradient(270deg, #FFCDB2, #FFB4A2, #E5989B, #B5838D, #6D6875);
+background: linear-gradient(270deg, #C6D2F2, #F2AC9B, #C9FFF9, #FFF2F2, #D8E6FF);
 background-size: 1000% 1000%;
--webkit-animation: AnimationName 15s ease infinite;
--moz-animation: AnimationName 15s ease infinite;
-animation: AnimationName 15s ease infinite;
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
+margin-top: 5%;
 }
 
 @-webkit-keyframes AnimationName {
@@ -52,18 +90,23 @@ animation: AnimationName 15s ease infinite;
 }
 
 .gradient-inner {
-  height: 100vh;
+  height: 87vh;
 }
 
 .gradient-text {
-  margin-top: 20%;
-  margin-left: 35%;
+  margin: auto;
   position: absolute;
+  left: 0;
+  right: 0;
 }
 
 h1 {
-  color: black;
-  font-size: 60px;
+  color: white;
+  font-size: 50px;
   font-family: 'Jaapokki';
   letter-spacing: 3px;
+}
+
+h4 {
+  font-family: 'Jaapokki';
 }
