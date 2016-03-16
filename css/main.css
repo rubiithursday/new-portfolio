@@ -1,0 +1,26 @@
+.r {
+  max-width: 8%;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+svg {
+    stroke: #000;
+    stroke-width: 4;
+    stroke-dasharray: 100px;
+    stroke-dashoffset: 100px;
+    animation-name: draw;
+    animation-duration: 8s;
+    animation-fill-mode: forwards; // Stay on the last frame
+    animation-iteration-count: 2; // Run only once
+    animation-timing-function: linear;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 20;
+  }
+}
