@@ -7,7 +7,17 @@
 <link rel="stylesheet" href="css/foundation.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/animate.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
+ <script>
+$(document).ready(function(e){
+$(".blog").click(function() {
+  $(".showcase").slideDown( "slow", function() {
+    // Animation complete.
+  });
+ 
+})
+</script>
 </head>
 
 
@@ -26,7 +36,7 @@
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row full-height">
 		<div class="large-offset-1 large-10 column gradient">
 		<div class="gradient-inner"></div>
 	</div>
@@ -41,18 +51,22 @@
 		
 		<h1 class="title-text">Rubii Pham is a designer and developer working on crafting beautiful experiences. </h1>
 		<br>
-		<h4>Currently based in NYC.</h4>
+		<h4>Currently based in NYC. I love meeting <u><a href="rubiipham4@gmail.com">new people</a></u>. </h4>
 		
 		</div>	
-<div class="work animated slideInUp"><h5>Work </h5></div>
+<div class="work animated slideInUp">
+	<h5><div class="mobile-show">About | 
+		Lab |</div>
+	Work </h5></div>
+	</div>
 
-		
 
-
+	<div class="row showcase">
 	</div>
 
 
 
 
  </body>
+
  </html>
