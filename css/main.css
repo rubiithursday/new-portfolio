@@ -8,7 +8,12 @@ body {
   font-size: 100%;
   letter-spacing: 2px;
 }
-.showcase{
+.showcase{}
+
+.about {
+  margin-top: 10%;
+  color: #F2AC9B;
+}
 
 }
 .full-height {
@@ -131,6 +136,11 @@ h5 {
   font-size: 1.6em;
 }
 
+h6 {
+   font-family: 'Jaapokki';
+  font-size: 1.15em;
+  opacity: .7;
+}
 .mobile-show {
   display:none;
 }
