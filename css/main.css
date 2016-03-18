@@ -8,8 +8,22 @@ body {
   font-size: 100%;
   letter-spacing: 2px;
 }
-.showcase{}
 
+
+.Wallop2 { max-width: 100%; }
+
+
+.Wallop { max-width: 100%; }
+
+.Wallop-list { margin: 15px 0; }
+
+.Wallop-item img { width: 100%; }
+
+
+
+.showcase {
+  margin-top: 5%;
+}
 .about {
   margin-top: 10%;
   color: #F2AC9B;
@@ -130,7 +144,12 @@ h4 {
   font-family: 'Jaapokki';
   opacity: .2;
 }
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
 
+}
 h5 {
   font-family: 'Jaapokki';
   font-size: 1.6em;
@@ -141,6 +160,9 @@ h6 {
   font-size: 1.15em;
   opacity: .7;
 }
+
+
+
 .mobile-show {
   display:none;
 }
