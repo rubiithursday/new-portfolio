@@ -7,6 +7,7 @@ body {
   font-family: 'Jaapokki';
   font-size: 100%;
   letter-spacing: 2px;
+  background: #f2eae6;
 }
 
 
@@ -20,7 +21,10 @@ body {
 .Wallop-item img { width: 100%; }
 
 
-
+.project {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
 .showcase {
   margin-top: 5%;
 }
@@ -54,11 +58,12 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    position: fixed;
 }
 
 .blog-text{
-   transform: rotate(270deg);
-    transform-origin: top 0;
+  transform: rotate(270deg);
+  transform-origin: top 0;
  
 }
 
@@ -66,12 +71,14 @@ body {
   position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    position: fixed;
 }
 
 .lab-text {
-   transform: rotate(90deg);
+  transform: rotate(90deg);
   transform-origin: top 0;
 }
+
 .r {
   width: 10%;
   margin: 0 auto;
