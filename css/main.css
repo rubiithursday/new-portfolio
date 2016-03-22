@@ -2,23 +2,30 @@
     font-family: "Jaapokki";
     src: url(fonts/jaapokki-regular.ttf) format("truetype");
 }
+.about-gradient {
+    height: 100%;
 
+/* can be treated like a fallback */
+  background-color: blue;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#4d65fb, #c1bfec);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: blue;
+  background: linear-gradient(#4d65fb, #c1bfec);
+  margin-bottom: 10%;
+}
+
+}
 body {
-  font-family: 'Jaapokki';
+  font-family: 'Karla';
   font-size: 100%;
   letter-spacing: 2px;
   background: #f2eae6;
 }
 
 
-.Wallop2 { max-width: 100%; }
-
-
-.Wallop { max-width: 100%; }
-
-.Wallop-list { margin: 15px 0; }
-
-.Wallop-item img { width: 100%; }
 
 
 .project {
@@ -28,9 +35,12 @@ body {
 .showcase {
   margin-top: 5%;
 }
+
 .about {
+  font-family: 'Karla';
   margin-top: 10%;
-  color: #F2AC9B;
+  color: white;
+  padding: 10% 10% 5% 10%;
 }
 
 }
@@ -149,23 +159,29 @@ h1 {
 
 h4 {
   font-family: 'Jaapokki';
-  opacity: .2;
+  letter-spacing: 2px;
+  color: blue;
 }
 h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: .8px;
+  font-weight: 600;
 }
 
-}
+
 h5 {
   font-family: 'Jaapokki';
   font-size: 1.6em;
+  letter-spacing: 1px;
 }
 
 h6 {
-   font-family: 'Jaapokki';
+   font-family: 'Karla';
   font-size: 1.15em;
   opacity: .7;
+  letter-spacing: .7px;
+
 }
 
 
