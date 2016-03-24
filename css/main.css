@@ -3,7 +3,7 @@
     src: url(fonts/jaapokki-regular.ttf) format("truetype");
 }
 .about-gradient {
-    height: 100%;
+    height: 70vh;
 
 /* can be treated like a fallback */
   background-color: blue;
@@ -14,7 +14,6 @@
   /* these will reset other properties, like background-position, but it does know what you mean */
   background: blue;
   background: linear-gradient(#4d65fb, #c1bfec);
-  margin-bottom: 10%;
 }
 
 }
@@ -56,7 +55,7 @@ body {
 .row {
   max-width: none;
 }
-.work {
+.alt-work {
   position: absolute;
   text-align: center;
   bottom: 20px;
@@ -160,7 +159,8 @@ h1 {
 h4 {
   font-family: 'Jaapokki';
   letter-spacing: 2px;
-  color: blue;
+  opacity: .2;  
+  color: black;
 }
 h3 {
   font-family: 'Karla', sans-serif;
